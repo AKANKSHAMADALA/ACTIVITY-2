@@ -1,10 +1,11 @@
-1.Here we have used the re module that provide support for regular expressions in Python. 
-2. Along with this the re.search() method returns False.
-3. the first parameter is not found in the second parameter.
-4. This method is best suited for testing
-5. A regular expression more than extracting data.
-6. We have used the re.search()
-7. To check the validation of alphabets.
-8. To check the validation of the digits or special characters.
-9. To check for white spaces we use the “\s”
-10. which comes in the module of the regular expression.
+1. Above is the code to validate a mobile number in python using nested if-else.
+2. In the first if else we check if the number is greater or less than 10 .
+3. If it is not then we print the error message,
+4. if it is exact 10 digits we go to the next step in validation.
+5. we successfully pass the 10 digit mobile number validation.
+6. we check if the first digit in the number is 7 or 8 or 9 .
+7. if it is not then we throw an error message and if it is then next validation.
+8.  I have used to try and except in the try I am converting the num to int if it fails
+9.  To convert because of any characters in number.
+10.  Then it will go in the except where the error message will show.
+
